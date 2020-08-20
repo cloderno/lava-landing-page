@@ -9833,6 +9833,7 @@ header .header-text__sub {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .section-testimonials__slider-box .slider-item__text-box-stars li i {
@@ -9843,6 +9844,8 @@ header .header-text__sub {
   color: #fff;
   text-align: center;
   font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .glide {
