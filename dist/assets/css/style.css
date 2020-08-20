@@ -9648,13 +9648,11 @@ header .header-text__sub {
 .section-about .about-cards__header,
 .section-about .card-item__header {
   position: absolute;
-  top: 20px;
+  top: 15px;
   left: 50px;
   opacity: 0.3;
   font-size: 100px;
   color: var(--col-orange-darken);
-  margin-top: 15px;
-  margin-bottom: 10px;
 }
 
 .section-about .about-cards__img,
@@ -9667,13 +9665,18 @@ header .header-text__sub {
   margin-top: 25px;
 }
 
+.section-about .about-cards__title,
+.section-about .card-item__title {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
 .section-about .about-cards__text,
 .section-about .card-item__text {
   text-align: center;
   font-size: 15px;
   line-height: 25px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /*
