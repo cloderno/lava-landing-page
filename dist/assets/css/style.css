@@ -10140,7 +10140,7 @@ header .header-text__sub {
     -ms-flex-direction: column;
     flex-direction: column;
     position: absolute;
-    top: 77px;
+    top: 75px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -10318,9 +10318,9 @@ header .header-text__sub {
   }
 
   header .header-navbar__burger-item {
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .2s ease-in-out .2s;
+    -o-transition: all .2s ease-in-out .2s;
+    transition: all .2s ease-in-out .2s;
   }
 
   header .header-navbar__links {

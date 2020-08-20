@@ -98,9 +98,9 @@ header {
             width: 30px;
             background-color: #111;
             transition: all .3s ease-in-out .3s;
-            
+
             @media(max-width: 540px) {
-                transition: all .3s ease-in-out;
+                transition: all .2s ease-in-out .2s;
             }
 
             &::before,
@@ -142,7 +142,7 @@ header {
                 visibility: hidden;
                 flex-direction: column;
                 position: absolute;
-                top: 77px;
+                top: 75px;
                 left: 50%;
                 transform: translateX(-50%);
                 margin: 0 auto;
