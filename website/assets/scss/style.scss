@@ -137,7 +137,7 @@ header {
             transition: all .3s ease-in-out .3s;
 
             @media(max-width: 1190px) {
-                transition: all .3s ease-in-out;
+                transition: all .3s ease-in-out .3s;
                 opacity: 0; 
                 visibility: hidden;
                 flex-direction: column;
@@ -147,10 +147,7 @@ header {
                 transform: translateX(-50%);
                 margin: 0 auto;
             }
-            @media(max-width: 540px) {
-                transition: all .3s ease-in-out;
-            }
-            
+
             &-element {
                 z-index: 999;
                 transition: all .3s ease-in-out .3s;
