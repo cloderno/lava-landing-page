@@ -98,6 +98,10 @@ header {
             width: 30px;
             background-color: #111;
             transition: all .3s ease-in-out .3s;
+            
+            @media(max-width: 540px) {
+                transition: all .3s ease-in-out;
+            }
 
             &::before,
             &::after {
