@@ -9648,7 +9648,7 @@ header .header-text__sub {
 .section-about .about-cards__header,
 .section-about .card-item__header {
   position: absolute;
-  top: 15px;
+  top: 20px;
   left: 50px;
   opacity: 0.3;
   font-size: 100px;
@@ -9667,8 +9667,8 @@ header .header-text__sub {
 
 .section-about .about-cards__title,
 .section-about .card-item__title {
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .section-about .about-cards__text,
