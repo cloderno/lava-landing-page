@@ -1,0 +1,251 @@
+/*
+=========================
+        UTILITIES
+=========================
+*/
+@import '_variables';
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    //CONTAINER RESPONSIVE
+    @media(max-width: 1190px) {
+        max-width: 960px;
+    }
+    @media(max-width: 960px) {
+        max-width: 720px;
+    }
+    @media(max-width: 720px) {
+        max-width: 540px;
+    }
+    @media(max-width: 540px) {
+        max-width: 380px;
+    }
+}
+
+.wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    //WRAPPER RESPONSIVE
+    @media(max-width: 1190px) {
+        margin-top: 30px;
+    }
+
+    @media(max-width: 960px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    // @media(max-width: 720px) {
+    //     max-width: 540px;
+    // }
+    // @media(max-width: 540px) {
+    //     padding-top: 70px;
+    // }
+}
+
+//SPAN COLORS 
+.dark-orange {
+    color: var(--col-orange-darken);
+}
+
+.light-orange {
+    color: var(--col-orange);
+}
+
+//SUPPORTERS
+.no-overflow {
+    overflow: hidden;
+}
+
+.visibility-on {
+    transition: all .3s ease-in-out .3s;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.visibility-off {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.opacity-off {
+    opacity: 0;
+}
+
+.opacity-on {
+    opacity: 1;
+}
+
+.display-off {
+    display: none;
+}
+
+.display-on {
+    display: block;
+}
+
+.preloader-off {
+    display: none !important;
+    visibility: hidden;
+}
+
+//ACTIONS
+.burger-active {
+    background-color: transparent;
+    .header-navbar__burger-item {
+        transition: all .3s ease-in-out .3s;
+        & {
+            background-color: transparent;
+        }
+        &::before {
+            width: 30px;
+            transform: rotate(45deg);
+        }
+        &::after {
+            width: 30px;
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+.link-anim {
+    visibility: visible;
+    opacity: 1;
+}
+
+.header-scrolled {
+    transition: all .1s ease-in-out .1s;
+    background-color: #fff;
+    border-bottom: 1px solid var(--col-gray-shadow);
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0 2px 10px 0 var(--col-gray-darker);
+
+    //CHANGING COLOR OF THE LIST ITEM WHEN SCROLL IS ON
+    ul li a {
+        color: #111;
+    }
+}
+
+/*
+=======================
+        ANIMATIONS 
+======================
+*/
+@keyframes fromLeft {
+    from {
+        left: -75px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+@keyframes fromRight {
+    from {
+        right: -75px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+@keyframes fromTop {
+    from {
+        top: -75px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        bottom: -75px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+
+@keyframes opacityAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+//ANIMATION CLASSES
+.opacityAnimation {
+    animation: opacityAnimation 1s ease-in-out;
+}
+.fromLeft {
+    animation: fromLeft 1s ease-in-out ;
+}
+.fromRight {
+    animation: fromRight 1s ease-in-out ;
+}
+.fromTop {
+    animation: fromTop 1s ease-in-out ;
+}
+.fromBottom {
+    animation: fromBottom 1s ease-in-out ;
+}
+
+
+//BUTTONS
+%btn {
+    display: inline-block;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .1s ease .1s;
+}
+
+.btn {
+    @extend %btn;
+}
+
+.orange-btn {
+    background-color: var(--col-orange);
+    &:hover {
+        background-color: var(--col-red);
+    }
+}
+
+.orange-dim-btn {
+    background-color: var(--col-orange-dim);
+    &:hover {
+        background-color: var(--col-red);
+    }
+}
+
+.arrow {
+    position: absolute;
+    top: 63%;
+    right: 15%;
+    margin-top: -6px;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    background-color: transparent;
+    border-bottom: 2px solid var(--col-gray);
+    border-left: 2px solid var(--col-gray);
+    transform: rotate(-45deg);
+    transition: all 0.15s ease-in-out 0.15s;
+}
+
+/*
+=========================
+        END OF UTILITIES
+=========================
+*/

@@ -1,0 +1,75 @@
+/*
+=========================
+        CONFIG
+=========================
+*/
+@import '_variables';
+
+//FONTAWESOME
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
+
+body {
+    font-size: 25px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+//BACKGROUNDS
+.bg-img-left {
+    background: url(../images/left-bg-decor.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+}
+
+.bottom-bg {
+    min-height: 900px;
+    background: url(../images/footer-bg.png);
+    background-position: bottom bottom;
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: relative;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: var(--col-gray);
+}
+
+p {
+    color: var(--col-gray);
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+h4 {
+    letter-spacing: 1px;
+}
+
+/*
+=========================
+        END OF CONFIG
+=========================
+*/
