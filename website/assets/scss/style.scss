@@ -99,10 +99,6 @@ header {
             background-color: #111;
             transition: all .3s ease-in-out .3s;
 
-            @media(max-width: 540px) {
-                transition: all 5s ease-in-out 5s;
-            }
-
             &::before,
             &::after {
                 position: absolute;
@@ -112,6 +108,10 @@ header {
                 width: 25px;
                 background-color: #111;
                 transition: all .3s ease-in-out .3s;
+
+                @media(max-width: 540px) {
+                    transition: all .3s ease-in-out;
+                }
             }
 
             &::before {

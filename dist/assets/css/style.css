@@ -10317,10 +10317,11 @@ header .header-text__sub {
     height: 100vh;
   }
 
-  header .header-navbar__burger-item {
-    -webkit-transition: all 5s ease-in-out 5s;
-    -o-transition: all 5s ease-in-out 5s;
-    transition: all 5s ease-in-out 5s;
+  header .header-navbar__burger-item::before,
+  header .header-navbar__burger-item::after {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
   }
 
   header .header-navbar__links {
