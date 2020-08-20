@@ -10286,11 +10286,6 @@ header .header-text__sub {
     display: none;
   }
 
-  .glide__arrow--right {
-    left: 60px;
-    top: -39px;
-  }
-
   .section-contact__left .form-input__box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -10355,6 +10350,10 @@ header .header-text__sub {
     text-align: center;
   }
 
+  .section-testimonials__title-sub {
+    text-align: left;
+  }
+
   .section-contact .contact {
     padding-top: 0;
   }
@@ -10369,12 +10368,28 @@ header .header-text__sub {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    top: 100%;
+    top: 115%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 
   .glide__arrow--left {
-    left: -130px;
-    top: 50px;
+    display: block;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+  }
+
+  .glide__arrow--right {
+    display: block;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+    margin-left: 50px;
   }
 }
 

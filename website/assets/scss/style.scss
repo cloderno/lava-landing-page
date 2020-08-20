@@ -494,6 +494,10 @@ header {
         &-sub {
             max-width: 700px;
             text-align: center;
+            //TESTIMONIALS SUB RESPONSIVE
+            @media(max-width: 540px) {
+                text-align: left;
+            }
         }
     }
     //linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%)
@@ -592,7 +596,8 @@ header {
         }
         @media(max-width: 420px) {
             display: flex;
-            top: 100%;
+            top: 115%;
+            flex-direction: row;
         }
 
     }
@@ -614,8 +619,11 @@ header {
             z-index: 2;
             //RESPONSIVE MOBILE ARROW
             @media(max-width: 420px) {
-                left: -130px;
-                top: 50px;
+                display: block;
+                top: 0;
+                left: 50%;
+                bottom: 0;
+                right: 0;
             }
         }
         
@@ -625,9 +633,13 @@ header {
             left: 110px;
             z-index: 1;
             //RESPONSIVE MOBILE ARROW
-            @media(max-width: 720px) {
-                left: 60px;
-                top: -39px;
+            @media(max-width: 420px) {
+                display: block;
+                top: 0;
+                left: 50%;
+                bottom: 0;
+                right: 0;
+                margin-left: 50px;
             }
         }
     }
