@@ -10137,11 +10137,11 @@ header .header-text__sub {
     -ms-flex-direction: column;
     flex-direction: column;
     position: absolute;
-    top: 42.5%;
+    top: 79px;
     left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
     margin: 0 auto;
   }
 
