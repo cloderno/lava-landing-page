@@ -108,10 +108,6 @@ header {
                 width: 25px;
                 background-color: #111;
                 transition: all .3s ease-in-out .3s;
-
-                @media(max-width: 540px) {
-                    transition: all .3s ease-in-out;
-                }
             }
 
             &::before {
@@ -240,7 +236,7 @@ header {
                                 top: 0; 
                                 left: 0;
                                 opacity: 0;
-                                transition: all .2s ease-in .2s;
+                                transition: all .2s ease-in-out .2s;
                             }
 
                             &:hover::before {

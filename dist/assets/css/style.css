@@ -9567,9 +9567,9 @@ header .header-navbar__links-element ul li a::before {
   top: 0;
   left: 0;
   opacity: 0;
-  -webkit-transition: all .2s ease-in .2s;
-  -o-transition: all .2s ease-in .2s;
-  transition: all .2s ease-in .2s;
+  -webkit-transition: all .2s ease-in-out .2s;
+  -o-transition: all .2s ease-in-out .2s;
+  transition: all .2s ease-in-out .2s;
 }
 
 header .header-navbar__links-element ul li a:hover::before {
@@ -10315,13 +10315,6 @@ header .header-text__sub {
 
   header {
     height: 100vh;
-  }
-
-  header .header-navbar__burger-item::before,
-  header .header-navbar__burger-item::after {
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
   }
 
   header .header-text-box {
