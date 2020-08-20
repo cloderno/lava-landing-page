@@ -10080,6 +10080,12 @@ header .header-text__sub {
   font-size: 18px;
 }
 
+.footer__text a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
 .footer__hr {
   border-top: 1px solid whitesmoke;
 }

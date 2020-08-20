@@ -84,7 +84,7 @@ window.addEventListener('scroll', () => {
 //PREVENT DEFAULT FORM
 const formInput = qs('form-input__btn').addEventListener('click', e => {
     e.preventDefault();
-    alert("Message wasn't sent because site has no connection with a database, just a pure front-end :)");
+    alert("You can contact me via link in a copyright section below by clicking to my name! \n\nMessage wasn't sent because site has no connection with a database, just a pure front-end :)");
 })
 
 /*

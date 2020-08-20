@@ -779,6 +779,11 @@ header {
         text-align: center;
         color: #fff;
         font-size: 18px;
+        a {
+            color: #fff;
+            font-size: 18px;
+            text-decoration: underline;
+        }
     }
     &__hr {
         border-top: 1px solid whitesmoke;
