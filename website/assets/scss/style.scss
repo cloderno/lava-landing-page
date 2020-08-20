@@ -138,9 +138,9 @@ header {
                 visibility: hidden;
                 flex-direction: column;
                 position: absolute;
-                top: 78px;
+                top: 42.5%;
                 left: 50%;
-                transform: translateX(-50%);
+                transform: translateX(-50%) translateY(-50%);
                 margin: 0 auto;
             }
             
@@ -365,6 +365,8 @@ header {
             opacity: 0.3;
             font-size: 100px;
             color: var(--col-orange-darken);
+            margin-top: 15px;
+            margin-bottom: 10px;
         }
 
         &__img {
@@ -379,6 +381,8 @@ header {
             text-align: center;
             font-size: 15px;
             line-height: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
     }
     
