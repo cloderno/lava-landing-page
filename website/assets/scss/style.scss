@@ -133,7 +133,7 @@ header {
             transition: all .3s ease-in-out .3s;
 
             @media(max-width: 1190px) {
-                transition: all 3s ease-in-out all;
+                transition: all 3s ease-in-out 3s;
                 opacity: 0; 
                 visibility: hidden;
                 flex-direction: column;
@@ -220,7 +220,7 @@ header {
                             width: 100%;
                             display: inline-block;
                             padding: 15px 100px 15px 20px;
-                            transition: all .2s ease-in-out .2s;
+                            transition: all .15s ease-in-out .15s;
 
                             &:hover {
                                 padding-left: 35px;
@@ -236,7 +236,7 @@ header {
                                 top: 0; 
                                 left: 0;
                                 opacity: 0;
-                                transition: all .25s ease-in .25s;
+                                transition: all .2s ease-in .2s;
                             }
 
                             &:hover::before {

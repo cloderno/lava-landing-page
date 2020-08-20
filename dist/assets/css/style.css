@@ -9548,9 +9548,9 @@ header .header-navbar__links-element ul li a {
   width: 100%;
   display: inline-block;
   padding: 15px 100px 15px 20px;
-  -webkit-transition: all .2s ease-in-out .2s;
-  -o-transition: all .2s ease-in-out .2s;
-  transition: all .2s ease-in-out .2s;
+  -webkit-transition: all .15s ease-in-out .15s;
+  -o-transition: all .15s ease-in-out .15s;
+  transition: all .15s ease-in-out .15s;
 }
 
 header .header-navbar__links-element ul li a:hover {
@@ -9567,9 +9567,9 @@ header .header-navbar__links-element ul li a::before {
   top: 0;
   left: 0;
   opacity: 0;
-  -webkit-transition: all .25s ease-in .25s;
-  -o-transition: all .25s ease-in .25s;
-  transition: all .25s ease-in .25s;
+  -webkit-transition: all .2s ease-in .2s;
+  -o-transition: all .2s ease-in .2s;
+  transition: all .2s ease-in .2s;
 }
 
 header .header-navbar__links-element ul li a:hover::before {
@@ -10130,9 +10130,9 @@ header .header-text__sub {
   }
 
   header .header-navbar__links {
-    -webkit-transition: all 3s ease-in-out all;
-    -o-transition: all 3s ease-in-out all;
-    transition: all 3s ease-in-out all;
+    -webkit-transition: all 3s ease-in-out 3s;
+    -o-transition: all 3s ease-in-out 3s;
+    transition: all 3s ease-in-out 3s;
     opacity: 0;
     visibility: hidden;
     -webkit-box-orient: vertical;
