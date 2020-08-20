@@ -588,6 +588,10 @@ header {
         @media(max-width: 720px) {
             display: none;
         }
+        @media(max-width: 420px) {
+            display: flex;
+            top: 100%;
+        }
 
     }
 
@@ -606,6 +610,11 @@ header {
             left: 60px;
             top: 0px;
             z-index: 2;
+            //RESPONSIVE MOBILE ARROW
+            @media(max-width: 420px) {
+                left: -130px;
+                top: 50px;
+            }
         }
         
         &--right {
@@ -613,6 +622,11 @@ header {
             top: -20px;
             left: 110px;
             z-index: 1;
+            //RESPONSIVE MOBILE ARROW
+            @media(max-width: 720px) {
+                left: 60px;
+                top: -39px;
+            }
         }
     }
 }
