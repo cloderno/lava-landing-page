@@ -10130,9 +10130,9 @@ header .header-text__sub {
   }
 
   header .header-navbar__links {
-    -webkit-transition: all 3s ease-in-out all;
-    -o-transition: all 3s ease-in-out all;
-    transition: all 3s ease-in-out all;
+    -webkit-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
     opacity: 0;
     visibility: hidden;
     -webkit-box-orient: vertical;
@@ -10140,7 +10140,7 @@ header .header-text__sub {
     -ms-flex-direction: column;
     flex-direction: column;
     position: absolute;
-    top: 79px;
+    top: 77px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
