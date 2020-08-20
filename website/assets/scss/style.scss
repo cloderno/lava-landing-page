@@ -143,6 +143,9 @@ header {
                 transform: translateX(-50%);
                 margin: 0 auto;
             }
+            @media(max-width: 540px) {
+                transition: all .3s ease-in-out;
+            }
             
             &-element {
                 z-index: 999;
