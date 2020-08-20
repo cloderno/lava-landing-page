@@ -213,6 +213,11 @@
 
 .btn {
     @extend %btn;
+    a {
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+    }
 }
 
 .orange-btn {

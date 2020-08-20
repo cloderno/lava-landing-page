@@ -9275,6 +9275,12 @@ h4 {
   transition: all .1s ease .1s;
 }
 
+.btn a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .orange-btn {
   background-color: var(--col-orange);
 }
