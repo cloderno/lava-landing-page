@@ -621,10 +621,7 @@ header {
             @media(max-width: 420px) {
                 display: block;
                 top: 0;
-                left: 50%;
-                bottom: 0;
-                right: 0;
-                margin-right: 25px;
+                left: 20%;
             }
         }
         
@@ -637,10 +634,7 @@ header {
             @media(max-width: 420px) {
                 display: block;
                 top: 0;
-                left: 50%;
-                bottom: 0;
                 right: 0;
-                margin-left: 25px;
             }
         }
     }
