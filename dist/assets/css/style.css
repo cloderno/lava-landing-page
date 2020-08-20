@@ -10347,6 +10347,10 @@ header .header-text__sub {
     text-align: center;
   }
 
+  .section-contact .contact {
+    padding-top: 0;
+  }
+
   .section-contact__right-social {
     width: 100%;
   }

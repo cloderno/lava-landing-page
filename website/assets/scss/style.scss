@@ -633,8 +633,12 @@ header {
         padding-top: 250px;
         margin-bottom: 30px;
 
+        //CONTACT SECTION PADDING
         @media(max-width: 960px) {
             flex-direction: column;
+        }
+        @media(max-width: 540px) {
+            padding-top: 0;
         }
     }
     //left block
