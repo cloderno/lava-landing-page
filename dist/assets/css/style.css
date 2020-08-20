@@ -9548,9 +9548,9 @@ header .header-navbar__links-element ul li a {
   width: 100%;
   display: inline-block;
   padding: 15px 100px 15px 20px;
-  -webkit-transition: all .15s ease-in-out .15s;
-  -o-transition: all .15s ease-in-out .15s;
-  transition: all .15s ease-in-out .15s;
+  -webkit-transition: all .2s ease-in-out .2s;
+  -o-transition: all .2s ease-in-out .2s;
+  transition: all .2s ease-in-out .2s;
 }
 
 header .header-navbar__links-element ul li a:hover {
@@ -9560,20 +9560,20 @@ header .header-navbar__links-element ul li a:hover {
 header .header-navbar__links-element ul li a::before {
   display: block;
   height: 49px;
-  width: 0px;
+  width: 0;
   background-color: var(--col-orange);
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-  -webkit-transition: all .1s ease-out .1s;
-  -o-transition: all .1s ease-out .1s;
-  transition: all .1s ease-out .1s;
+  -webkit-transition: all .25s ease-in .25s;
+  -o-transition: all .25s ease-in .25s;
+  transition: all .25s ease-in .25s;
 }
 
 header .header-navbar__links-element ul li a:hover::before {
-  width: 4px;
+  width: 5px;
   opacity: 1;
 }
 

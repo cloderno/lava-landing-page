@@ -217,7 +217,7 @@ header {
                             width: 100%;
                             display: inline-block;
                             padding: 15px 100px 15px 20px;
-                            transition: all .15s ease-in-out .15s;
+                            transition: all .2s ease-in-out .2s;
 
                             &:hover {
                                 padding-left: 35px;
@@ -226,18 +226,18 @@ header {
                             &::before {
                                 display: block;
                                 height: 49px;
-                                width: 0px;
+                                width: 0;
                                 background-color: var(--col-orange);
                                 content: '';
                                 position: absolute;
                                 top: 0; 
                                 left: 0;
                                 opacity: 0;
-                                transition: all .1s ease-out .1s;
+                                transition: all .25s ease-in .25s;
                             }
 
                             &:hover::before {
-                                width: 4px;
+                                width: 5px;
                                 opacity: 1;
                             }
                         }
