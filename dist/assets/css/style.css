@@ -10311,7 +10311,7 @@ header .header-text__sub {
   }
 
   header .header-text-box {
-    margin-top: 140%;
+    margin-top: 110%;
   }
 
   .section-about {
@@ -10341,5 +10341,15 @@ header .header-text__sub {
   .promotion__right-text-box .promotion-text__header {
     margin-bottom: 25px;
     text-align: center;
+  }
+
+  .section-contact__right-social {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  header .header-text-box {
+    margin-top: 75%;
   }
 }

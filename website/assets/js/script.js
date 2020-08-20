@@ -68,10 +68,14 @@ window.addEventListener('scroll', () => {
     //TURNING OFF ANIMATIONS ON MOBILE DEVICES
     if(window.innerWidth > 540) {
         setTimeout(() => {
-            aboutSectionOpacity();
-            aboutSectionAnimation();
-            promotionSectionOpacity();
-            promotionSectionAnimation();
+            if (window.scrollY > 200) {
+                aboutSectionOpacity();
+                aboutSectionAnimation();
+            }
+            if (window.scrollY > 1150) {
+                promotionSectionOpacity();
+                promotionSectionAnimation();
+            }
         }, 1000);
     }
     else {
@@ -92,35 +96,27 @@ const formInput = qs('form-input__btn').addEventListener('click', e => {
 */
 //ABOUT SECTION ANIMATIONS FUNCTION
 const aboutSectionOpacity = () => {
-    if (window.scrollY > 300) {
-        aboutSection.classList.add('opacityAnimation');
-        aboutSection.classList.remove('opacity-off');
-    }
+    aboutSection.classList.add('opacityAnimation');
+    aboutSection.classList.remove('opacity-off');
 }
 
 const aboutSectionAnimation = () => {
-    if (window.scrollY > 300) {
-        cardItem[0].classList.add('fromLeft');
-        cardItem[1].classList.add('fromBottom');
-        cardItem[2].classList.add('fromRight');;
-    }
+    cardItem[0].classList.add('fromLeft');
+    cardItem[1].classList.add('fromBottom');
+    cardItem[2].classList.add('fromRight');;
 }
 
 //PROMOTION SECTION ANIMATION
 const promotionSectionOpacity  = () => {
-    if (window.scrollY > 1150) {
-        promotionSection.classList.add('opacityAnimation');
-        promotionSection.classList.remove('opacity-off');
-    }
+    promotionSection.classList.add('opacityAnimation');
+    promotionSection.classList.remove('opacity-off');
 }
 
 const promotionSectionAnimation = () => {
-    if (window.scrollY > 1150) {
-        promotionLeft[0].classList.add('fromLeft');    
-        promotionRight[0].classList.add('fromRight');
-        promotionRight[1].classList.add('fromRight');
-        promotionRight[2].classList.add('fromRight');
-    }
+    promotionLeft[0].classList.add('fromLeft');    
+    promotionRight[0].classList.add('fromRight');
+    promotionRight[1].classList.add('fromRight');
+    promotionRight[2].classList.add('fromRight');
 }
 
 @@include('_glide.js');

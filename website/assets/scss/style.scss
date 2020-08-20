@@ -275,9 +275,11 @@ header {
                 margin-top: 130%;
             }
             @media(max-width: 540px) {
-                margin-top: 140%;
+                margin-top: 110%;
             }
-
+            @media(max-width: 400px) {
+                margin-top: 75%;
+            }
 
         }
         &__title {
@@ -310,6 +312,7 @@ header {
     @media(max-width: 540px) {
         margin-top: 45%;
     }
+
     //SECTIONS ANIMATIONS ARE IN JAVASCRIPT
     .about-cards,
     .card-item {
@@ -742,6 +745,9 @@ header {
             }
             @media(max-width: 720px) {
                 width: 65%;
+            }
+            @media(max-width: 540px) {
+                width: 100%;
             }
             .social-icon {
                 display: block;
