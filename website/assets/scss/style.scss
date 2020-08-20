@@ -54,7 +54,10 @@ header {
     }
     //RESPONSIVE HEADER
     @media(max-width: 540px) {
-        height: 85vh;
+        height: 100vh;
+    }
+    @media(max-width: 320px) {
+        height: 105vh;
     }
     
     .header-navbar {
@@ -336,7 +339,7 @@ header {
         //MARGIN BETWEEN HEADER AND ABOUT CARDS FIRST ITEM
         @media(max-width: 540px) {
             &:first-child {
-                margin-top: 20%;
+                margin-top: 10%;
             }
         }
 

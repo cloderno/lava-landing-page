@@ -10307,7 +10307,7 @@ header .header-text__sub {
   }
 
   header {
-    height: 85vh;
+    height: 100vh;
   }
 
   header .header-text-box {
@@ -10320,7 +10320,7 @@ header .header-text__sub {
 
   .section-about .about-cards:first-child,
   .section-about .card-item:first-child {
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   .promotion__right-text-box {
@@ -10351,5 +10351,11 @@ header .header-text__sub {
 @media (max-width: 400px) {
   header .header-text-box {
     margin-top: 75%;
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    height: 105vh;
   }
 }
