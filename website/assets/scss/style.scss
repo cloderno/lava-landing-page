@@ -137,7 +137,7 @@ header {
             transition: all .3s ease-in-out .3s;
 
             @media(max-width: 1190px) {
-                transition: all 3s ease-in-out;
+                transition: all .3s ease-in-out;
                 opacity: 0; 
                 visibility: hidden;
                 flex-direction: column;
